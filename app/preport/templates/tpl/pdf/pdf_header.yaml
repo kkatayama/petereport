@@ -3,6 +3,7 @@ title: "{{DB_report_query.title}}"
 product: "{{DB_report_query.product.name}}"
 author: ["{{md_author}}", "{{md_website}}"]
 date: "{{report_date}}"
+date-meta: "M d, yy"
 subject: "{{md_subject}}"
 subtitle: "{{DB_report_query.report_id}}"
 lang: "{{report_pdf_language}}"

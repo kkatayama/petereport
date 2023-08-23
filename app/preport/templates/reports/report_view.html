@@ -171,7 +171,7 @@
                       <div class="info-box bg-light">
                         <div class="info-box-content">
                           <span class="info-box-number text-center text-muted">{% translate "Report date" %}</span>
-                          <span class="info-box-text text-center text-muted mb-0">{{ DB_report_query.report_date|date:"d-m-Y" | safe | bleach}}</span>
+                          <span class="info-box-text text-center text-muted mb-0">{{ DB_report_query.report_date|date:"M d, Y" | safe | bleach}}</span>
                         </div>
                       </div>
                     </div>
