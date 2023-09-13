@@ -1045,7 +1045,9 @@ def reportdownloadpdf(request, template, pk):
 
         # Datetime
         now = datetime.datetime.utcnow()
-        report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        ### TEDDY EDIT ###
+        # report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        report_date = DB_report_query.report_date.strftime('%B %m, %Y')
 
         # PDF filename
         name_file = bleach.clean(PETEREPORT_TEMPLATES['report_pdf_name'] + '_' + DB_report_query.title + '_' +  str(datetime.datetime.utcnow().strftime('%Y%m%d%H%M'))).replace('/', '') + '.pdf'

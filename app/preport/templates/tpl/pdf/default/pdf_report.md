@@ -1,8 +1,6 @@
 {% load i18n %}
 # {% translate "Document Overview" %}
 
-## {% translate "Description" %}
-
 {{DB_report_query.product.description | safe}}
 
 \pagebreak
@@ -26,7 +24,7 @@
 
 {{DB_report_query.scope | safe}}
 
-### {% translate "Out of Scope" %}
+### {% translate "Attack Surface" %}
 
 {{DB_report_query.outofscope | safe}}
 

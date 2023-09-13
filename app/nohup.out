@@ -1,2 +1,1160 @@
 Watching for file changes with StatReloader
 Error: That port is already in use.
+Watching for file changes with StatReloader
+[13/Sep/2023 02:35:21] "GET /en/report/list/ HTTP/1.0" 200 26261
+[13/Sep/2023 02:35:24] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 02:35:24] "GET /en/report/edit/1 HTTP/1.0" 200 151788
+[13/Sep/2023 02:35:25] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 02:35:58] "GET /en/findings/closed/ HTTP/1.0" 200 23671
+[13/Sep/2023 02:36:02] "GET /en/finding/edit/4 HTTP/1.0" 200 276158
+[13/Sep/2023 02:36:03] "POST /martor/martor/markdownify/ HTTP/1.0" 200 10
+[13/Sep/2023 02:36:09] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 02:36:13] "GET /product/view/1 HTTP/1.0" 302 0
+[13/Sep/2023 02:36:13] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 02:36:21] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 02:36:24] "GET /product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 02:36:24] "GET /en/product/edit/1 HTTP/1.0" 200 44111
+[13/Sep/2023 02:36:25] "POST /martor/martor/markdownify/ HTTP/1.0" 200 946
+[13/Sep/2023 02:36:35] "GET /en/customer/list/ HTTP/1.0" 200 27019
+[13/Sep/2023 02:36:38] "GET /en/customer/edit/2 HTTP/1.0" 200 44062
+[13/Sep/2023 02:36:39] "POST /martor/martor/markdownify/ HTTP/1.0" 200 1089
+[13/Sep/2023 02:36:48] "GET /en/report/list/ HTTP/1.0" 200 26261
+[13/Sep/2023 02:36:50] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 02:36:50] "GET /en/report/edit/1 HTTP/1.0" 200 151788
+[13/Sep/2023 02:36:51] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 02:53:14] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 02:53:14] "GET /en/report/view/1 HTTP/1.0" 200 82945
+[13/Sep/2023 02:53:18] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 02:53:18] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 02:53:18.682416) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 02:53:27] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325500
+[13/Sep/2023 03:00:22] "GET /en/report/list/ HTTP/1.0" 200 26261
+[13/Sep/2023 03:00:25] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:00:25] "GET /en/report/edit/1 HTTP/1.0" 200 151530
+[13/Sep/2023 03:00:26] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 03:13:22] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:13:22] "GET /en/report/view/1 HTTP/1.0" 200 85093
+[13/Sep/2023 03:13:26] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 03:13:26] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 03:13:26.984825) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 03:13:36] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325605
+[13/Sep/2023 03:15:25] "GET /en/report/list/ HTTP/1.0" 200 26261
+[13/Sep/2023 03:15:27] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:15:27] "GET /en/report/edit/1 HTTP/1.0" 200 151530
+[13/Sep/2023 03:15:28] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 03:16:23] "POST /martor/martor/markdownify/ HTTP/1.0" 200 418
+[13/Sep/2023 03:16:28] "POST /martor/martor/markdownify/ HTTP/1.0" 200 917
+[13/Sep/2023 03:17:20] "POST /martor/martor/markdownify/ HTTP/1.0" 200 210
+[13/Sep/2023 03:17:39] "POST /martor/martor/markdownify/ HTTP/1.0" 200 903
+[13/Sep/2023 03:18:02] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:18:02] "GET /en/report/view/1 HTTP/1.0" 200 88099
+[13/Sep/2023 03:18:04] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 03:18:04] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 03:18:04.963241) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 03:18:13] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 365231
+[13/Sep/2023 03:18:46] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 03:18:50] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:18:50] "GET /en/report/edit/1 HTTP/1.0" 200 152310
+[13/Sep/2023 03:18:51] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 03:19:12] "POST /martor/martor/markdownify/ HTTP/1.0" 200 878
+[13/Sep/2023 03:19:19] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:19:19] "GET /en/report/view/1 HTTP/1.0" 200 90244
+[13/Sep/2023 03:19:24] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 03:19:24] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 03:19:25.046875) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 03:19:33] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325667
+[13/Sep/2023 03:19:51] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 03:19:54] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:19:54] "GET /en/report/edit/1 HTTP/1.0" 200 152304
+[13/Sep/2023 03:19:55] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 03:22:56] "POST /martor/martor/markdownify/ HTTP/1.0" 200 966
+[13/Sep/2023 03:23:03] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:23:03] "GET /en/report/view/1 HTTP/1.0" 200 92479
+[13/Sep/2023 03:23:07] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 03:23:07] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 03:23:07.586776) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 03:23:16] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 326118
+[13/Sep/2023 03:24:16] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 03:24:19] "GET /product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:24:19] "GET /en/product/edit/1 HTTP/1.0" 200 44111
+[13/Sep/2023 03:24:19] "POST /martor/martor/markdownify/ HTTP/1.0" 200 946
+[13/Sep/2023 03:24:31] "POST /en/product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:24:31] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 03:24:34] "GET /product/view/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:24:34] "GET /en/product/view/1 HTTP/1.0" 200 26476
+[13/Sep/2023 03:24:38] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:24:38] "GET /en/report/edit/1 HTTP/1.0" 200 152402
+[13/Sep/2023 03:24:39] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 03:52:29] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:52:30] "GET /en/report/view/1 HTTP/1.0" 200 94658
+[13/Sep/2023 03:52:33] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 03:52:33] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \begin{longtable}
+
+
+[13/Sep/2023 03:52:40] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146592
+[13/Sep/2023 03:53:08] "GET /en/report/edit/1 HTTP/1.0" 200 152470
+[13/Sep/2023 03:53:09] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 03:54:30] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:54:30] "GET /en/report/view/1 HTTP/1.0" 200 94700
+[13/Sep/2023 03:54:33] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 03:54:33] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \begin{longtable}
+
+
+[13/Sep/2023 03:54:40] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146593
+[13/Sep/2023 03:56:20] "GET /en/report/edit/1 HTTP/1.0" 200 152509
+[13/Sep/2023 03:56:21] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 03:57:48] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:57:48] "GET /en/report/view/1 HTTP/1.0" 200 94659
+[13/Sep/2023 03:57:51] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 03:57:51] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \begin{longtable}
+
+
+[13/Sep/2023 03:57:58] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146593
+[13/Sep/2023 03:58:33] "GET /en/report/edit/1 HTTP/1.0" 200 152469
+[13/Sep/2023 03:58:34] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 03:59:18] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 03:59:18] "GET /en/report/view/1 HTTP/1.0" 200 94675
+[13/Sep/2023 03:59:22] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 03:59:22] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \begin{longtable}
+
+
+[13/Sep/2023 03:59:29] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146593
+[13/Sep/2023 03:59:43] "GET /en/report/edit/1 HTTP/1.0" 200 152485
+[13/Sep/2023 03:59:44] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:04:13] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:04:13] "GET /en/report/view/1 HTTP/1.0" 200 94634
+[13/Sep/2023 04:04:15] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:04:16] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \begin{longtable}
+
+
+[13/Sep/2023 04:04:23] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146591
+[13/Sep/2023 04:04:57] "GET /en/report/edit/1 HTTP/1.0" 200 152436
+[13/Sep/2023 04:04:58] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:05:14] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:05:14] "GET /en/report/view/1 HTTP/1.0" 200 93689
+[13/Sep/2023 04:05:18] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:05:20] "GET /product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:05:20] "GET /en/product/edit/1 HTTP/1.0" 200 44985
+[13/Sep/2023 04:05:21] "POST /martor/martor/markdownify/ HTTP/1.0" 200 1891
+[13/Sep/2023 04:05:27] "POST /en/product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:05:28] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:05:30] "GET /en/report/list/ HTTP/1.0" 200 26261
+[13/Sep/2023 04:05:32] "GET /report/view/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:05:33] "GET /en/report/view/1 HTTP/1.0" 200 93689
+[13/Sep/2023 04:05:38] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:05:38] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! Undefined control sequence.
+l.634    \toprule
+
+
+[13/Sep/2023 04:05:48] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 144999
+[13/Sep/2023 04:06:56] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:06:56] "GET /en/report/edit/1 HTTP/1.0" 200 151562
+[13/Sep/2023 04:06:57] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:07:19] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:07:19] "GET /en/report/view/1 HTTP/1.0" 200 93680
+[13/Sep/2023 04:07:21] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:07:22] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 04:07:22.095875) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 04:07:30] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325664
+[13/Sep/2023 04:08:48] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:08:51] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:08:51] "GET /en/report/edit/1 HTTP/1.0" 200 151553
+[13/Sep/2023 04:08:52] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:09:31] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:09:31] "GET /en/report/view/1 HTTP/1.0" 200 95853
+[13/Sep/2023 04:09:34] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:09:34] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 \begin{longtable}
+
+
+[13/Sep/2023 04:09:43] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146263
+[13/Sep/2023 04:10:31] "GET /en/report/edit/1 HTTP/1.0" 200 151591
+[13/Sep/2023 04:10:32] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:11:07] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:11:07] "GET /en/report/view/1 HTTP/1.0" 200 95849
+[13/Sep/2023 04:11:10] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:11:10] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.632   \caption
+
+
+[13/Sep/2023 04:11:18] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146226
+[13/Sep/2023 04:11:31] "GET /en/report/edit/1 HTTP/1.0" 200 151589
+[13/Sep/2023 04:11:31] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:14:14] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:14:14] "GET /en/report/view/1 HTTP/1.0" 200 95849
+[13/Sep/2023 04:14:17] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:14:17] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.632   \caption
+
+
+[13/Sep/2023 04:14:25] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146226
+[13/Sep/2023 04:15:35] "GET /en/report/edit/1 HTTP/1.0" 200 151589
+[13/Sep/2023 04:15:36] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:15:48] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:15:51] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:15:51] "GET /en/report/edit/1 HTTP/1.0" 200 151589
+[13/Sep/2023 04:15:52] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:16:21] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:16:21] "GET /en/report/view/1 HTTP/1.0" 200 95832
+[13/Sep/2023 04:16:23] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:16:23] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.632   \caption
+
+
+[13/Sep/2023 04:16:32] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146226
+[13/Sep/2023 04:16:42] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:16:44] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:16:44] "GET /en/report/edit/1 HTTP/1.0" 200 151571
+[13/Sep/2023 04:16:45] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:17:35] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:17:36] "GET /en/report/view/1 HTTP/1.0" 200 95850
+[13/Sep/2023 04:17:38] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:17:38] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633 \caption
+
+
+[13/Sep/2023 04:17:46] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146216
+[13/Sep/2023 04:18:01] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:18:04] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:18:07] "GET /product/view/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:18:07] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:18:10] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:18:10] "GET /en/report/edit/1 HTTP/1.0" 200 151589
+[13/Sep/2023 04:18:11] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:18:19] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:18:19] "GET /en/report/view/1 HTTP/1.0" 200 95850
+[13/Sep/2023 04:18:22] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:18:23] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633 \caption
+
+
+[13/Sep/2023 04:18:31] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146215
+[13/Sep/2023 04:18:38] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:18:41] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:18:41] "GET /en/report/edit/1 HTTP/1.0" 200 151589
+[13/Sep/2023 04:18:42] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:18:52] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:18:52] "GET /en/report/view/1 HTTP/1.0" 200 95766
+[13/Sep/2023 04:18:54] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:18:55] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.630 ...ckslash begin\{longtable\}\{llll\} \hline
+
+
+[13/Sep/2023 04:19:03] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 145757
+[13/Sep/2023 04:19:40] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:19:42] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:19:42] "GET /en/report/edit/1 HTTP/1.0" 200 151511
+[13/Sep/2023 04:19:43] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:22:05] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:22:05] "GET /en/report/view/1 HTTP/1.0" 200 95951
+[13/Sep/2023 04:22:08] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:22:08] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 \begin{longtable}
+
+
+[13/Sep/2023 04:22:16] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146263
+[13/Sep/2023 04:22:39] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:22:41] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:22:41] "GET /en/report/edit/1 HTTP/1.0" 200 151682
+[13/Sep/2023 04:22:42] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:23:23] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:23:23] "GET /en/report/view/1 HTTP/1.0" 200 95951
+[13/Sep/2023 04:23:25] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:23:26] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.643 \begin{longtable}
+
+
+[13/Sep/2023 04:23:34] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146264
+[13/Sep/2023 04:24:03] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:24:03] "GET /report/download/pdf/background_example/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/background_example/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.643 \begin{longtable}
+
+
+[13/Sep/2023 04:24:12] "GET /en/report/download/pdf/background_example/1 HTTP/1.0" 500 146569
+[13/Sep/2023 04:24:27] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:24:30] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:24:30] "GET /en/report/edit/1 HTTP/1.0" 200 151678
+[13/Sep/2023 04:24:30] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:25:14] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:25:14] "GET /en/report/view/1 HTTP/1.0" 200 95898
+[13/Sep/2023 04:25:18] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:25:18] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! Undefined control sequence.
+l.649    \midrule
+
+
+[13/Sep/2023 04:25:26] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 145000
+[13/Sep/2023 04:25:31] "GET /en/report/edit/1 HTTP/1.0" 200 151615
+[13/Sep/2023 04:25:32] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:25:52] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:25:53] "GET /en/report/view/1 HTTP/1.0" 200 95890
+[13/Sep/2023 04:25:56] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:25:56] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 04:25:56.292753) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 04:26:05] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325867
+[13/Sep/2023 04:26:43] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:26:47] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:26:47] "GET /en/report/edit/1 HTTP/1.0" 200 151607
+[13/Sep/2023 04:26:48] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:27:32] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:27:32] "GET /en/report/view/1 HTTP/1.0" 200 98045
+[13/Sep/2023 04:27:35] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:27:35] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.643 \begin{longtable}
+
+
+[13/Sep/2023 04:27:44] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146264
+[13/Sep/2023 04:27:50] "GET /en/report/edit/1 HTTP/1.0" 200 151615
+[13/Sep/2023 04:27:51] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:29:06] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:29:07] "GET /en/report/view/1 HTTP/1.0" 200 98084
+[13/Sep/2023 04:29:09] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:29:09] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.646    \label
+
+
+[13/Sep/2023 04:29:18] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146229
+[13/Sep/2023 04:29:23] "GET /en/report/edit/1 HTTP/1.0" 200 151652
+[13/Sep/2023 04:29:23] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:29:40] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:29:40] "GET /en/report/view/1 HTTP/1.0" 200 98056
+[13/Sep/2023 04:29:43] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:29:43] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 04:29:43.225760) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 04:29:51] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325870
+[13/Sep/2023 04:30:37] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:30:39] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:30:39] "GET /en/report/edit/1 HTTP/1.0" 200 151626
+[13/Sep/2023 04:30:40] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:32:39] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:32:39] "GET /en/report/view/1 HTTP/1.0" 200 100203
+[13/Sep/2023 04:32:41] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:32:41] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 04:32:41.717313) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 04:32:50] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325805
+[13/Sep/2023 04:32:56] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:32:58] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:32:58] "GET /en/report/edit/1 HTTP/1.0" 200 151628
+[13/Sep/2023 04:32:59] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:34:11] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:34:12] "GET /en/report/view/1 HTTP/1.0" 200 102332
+[13/Sep/2023 04:34:14] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:34:14] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 04:34:14.989954) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 04:34:23] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325811
+[13/Sep/2023 04:35:05] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:35:08] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:35:08] "GET /en/report/edit/1 HTTP/1.0" 200 151610
+[13/Sep/2023 04:35:09] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:35:33] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:35:33] "GET /en/report/view/1 HTTP/1.0" 200 104466
+[13/Sep/2023 04:35:36] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:35:36] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 04:35:36.561677) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 04:35:45] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325808
+[13/Sep/2023 04:36:20] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:36:22] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:36:22] "GET /en/report/edit/1 HTTP/1.0" 200 151600
+[13/Sep/2023 04:36:23] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:36:50] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:36:50] "GET /en/report/view/1 HTTP/1.0" 200 106628
+[13/Sep/2023 04:36:53] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:36:53] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 04:36:53.342165) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 04:37:02] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325822
+[13/Sep/2023 04:38:16] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:38:19] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:38:19] "GET /en/report/edit/1 HTTP/1.0" 200 151615
+[13/Sep/2023 04:38:20] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:39:15] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:39:15] "GET /en/report/view/1 HTTP/1.0" 200 108832
+[13/Sep/2023 04:39:17] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:39:17] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 04:39:17.845754) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 04:39:26] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325830
+[13/Sep/2023 04:42:58] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:43:02] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:43:02] "GET /en/report/edit/1 HTTP/1.0" 200 151672
+[13/Sep/2023 04:43:02] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:43:27] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:43:27] "GET /en/report/view/1 HTTP/1.0" 200 110987
+[13/Sep/2023 04:43:30] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:43:30] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 \begin{longtable}
+
+
+[13/Sep/2023 04:43:38] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146263
+[13/Sep/2023 04:43:52] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:43:56] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:43:56] "GET /en/report/edit/1 HTTP/1.0" 200 151680
+[13/Sep/2023 04:43:57] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:44:22] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:44:22] "GET /en/report/view/1 HTTP/1.0" 200 112222
+[13/Sep/2023 04:44:25] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:44:25] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.658 \begin{longtable}
+
+
+[13/Sep/2023 04:44:33] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146264
+[13/Sep/2023 04:44:46] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:44:49] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:44:49] "GET /en/report/edit/1 HTTP/1.0" 200 152851
+[13/Sep/2023 04:44:50] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:46:12] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:46:13] "GET /en/report/view/1 HTTP/1.0" 200 111924
+[13/Sep/2023 04:46:15] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:46:15] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.658 \begin{longtable}
+
+
+[13/Sep/2023 04:46:24] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146264
+[13/Sep/2023 04:46:54] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:46:57] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:46:57] "GET /en/report/edit/1 HTTP/1.0" 200 152546
+[13/Sep/2023 04:46:58] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:47:16] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:47:16] "GET /en/report/view/1 HTTP/1.0" 200 110979
+[13/Sep/2023 04:47:21] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:47:24] "GET /product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:47:24] "GET /en/product/edit/1 HTTP/1.0" 200 44111
+[13/Sep/2023 04:47:24] "POST /martor/martor/markdownify/ HTTP/1.0" 200 946
+[13/Sep/2023 04:47:29] "POST /en/product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:47:29] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:47:32] "GET /product/view/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:47:32] "GET /en/product/view/1 HTTP/1.0" 200 26476
+[13/Sep/2023 04:47:35] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:47:35] "GET /en/report/edit/1 HTTP/1.0" 200 151670
+[13/Sep/2023 04:47:36] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:47:40] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:47:40] "GET /en/report/view/1 HTTP/1.0" 200 110979
+[13/Sep/2023 04:47:43] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:47:43] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \begin{longtable}
+
+
+[13/Sep/2023 04:47:50] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146593
+[13/Sep/2023 04:48:01] "GET /en/product/view/1 HTTP/1.0" 200 26476
+[13/Sep/2023 04:48:04] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:48:04] "GET /en/report/edit/1 HTTP/1.0" 200 151670
+[13/Sep/2023 04:48:05] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:48:45] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:48:45] "GET /en/report/view/1 HTTP/1.0" 200 110462
+[13/Sep/2023 04:48:56] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:48:56] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \begin{longtable}
+
+
+[13/Sep/2023 04:49:04] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146593
+[13/Sep/2023 04:49:32] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:49:34] "GET /product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:49:34] "GET /en/product/edit/1 HTTP/1.0" 200 44985
+[13/Sep/2023 04:49:35] "POST /martor/martor/markdownify/ HTTP/1.0" 200 1891
+[13/Sep/2023 04:49:44] "POST /en/product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:49:45] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:49:48] "GET /product/view/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:49:48] "GET /en/product/view/1 HTTP/1.0" 200 25531
+[13/Sep/2023 04:49:51] "GET /report/view/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:49:51] "GET /en/report/view/1 HTTP/1.0" 200 110462
+[13/Sep/2023 04:49:54] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:49:54] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1595: RuntimeWarning: DateTimeField DB_Deliverable.generation_date received a naive datetime (2023-09-13 04:49:54.340664) while time zone support is active.
+  warnings.warn(
+[13/Sep/2023 04:50:02] "GET /en/report/download/pdf/default/1 HTTP/1.0" 200 325502
+[13/Sep/2023 04:50:09] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:50:12] "GET /product/view/2 HTTP/1.0" 302 0
+[13/Sep/2023 04:50:12] "GET /en/product/view/2 HTTP/1.0" 200 23778
+[13/Sep/2023 04:50:16] "GET /report/view/2 HTTP/1.0" 302 0
+[13/Sep/2023 04:50:16] "GET /en/report/view/2 HTTP/1.0" 200 56338
+[13/Sep/2023 04:50:24] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:50:26] "GET /product/edit/2 HTTP/1.0" 302 0
+[13/Sep/2023 04:50:26] "GET /en/product/edit/2 HTTP/1.0" 200 43164
+[13/Sep/2023 04:50:27] "POST /martor/martor/markdownify/ HTTP/1.0" 200 0
+[13/Sep/2023 04:50:30] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:50:33] "GET /product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:50:33] "GET /en/product/edit/1 HTTP/1.0" 200 44111
+[13/Sep/2023 04:50:34] "POST /martor/martor/markdownify/ HTTP/1.0" 200 946
+[13/Sep/2023 04:50:39] "POST /en/product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:50:39] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:50:44] "GET /en/report/list/ HTTP/1.0" 200 26261
+[13/Sep/2023 04:50:46] "GET /report/view/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:50:46] "GET /en/report/view/1 HTTP/1.0" 200 112609
+[13/Sep/2023 04:50:49] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:50:49] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \begin{longtable}
+
+
+[13/Sep/2023 04:50:56] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146593
+[13/Sep/2023 04:51:14] "GET /en/product/view/1 HTTP/1.0" 200 26476
+[13/Sep/2023 04:51:16] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:51:18] "GET /product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:51:18] "GET /en/product/edit/1 HTTP/1.0" 200 44985
+[13/Sep/2023 04:51:18] "POST /martor/martor/markdownify/ HTTP/1.0" 200 1891
+[13/Sep/2023 04:51:43] "POST /en/product/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:51:43] "GET /en/product/list/ HTTP/1.0" 200 24053
+[13/Sep/2023 04:51:47] "GET /product/view/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:51:47] "GET /en/product/view/1 HTTP/1.0" 200 26476
+[13/Sep/2023 04:51:50] "GET /report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:51:50] "GET /en/report/edit/1 HTTP/1.0" 200 151197
+[13/Sep/2023 04:51:51] "POST /martor/martor/markdownify/ HTTP/1.0" 200 285
+[13/Sep/2023 04:51:56] "POST /en/report/edit/1 HTTP/1.0" 302 0
+[13/Sep/2023 04:51:56] "GET /en/report/view/1 HTTP/1.0" 200 112609
+[13/Sep/2023 04:51:58] "POST /en/report/uploadsummaryfindings/1 HTTP/1.0" 200 20
+[13/Sep/2023 04:51:58] "GET /report/download/pdf/default/1 HTTP/1.0" 302 0
+Internal Server Error: /en/report/download/pdf/default/1
+Traceback (most recent call last):
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/Documents/PeTeReport/app/preport/views.py", line 1183, in reportdownloadpdf
+    pypandoc.convert_text(final_markdown_output,
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 91, in convert_text
+    return _convert_input(source, format, 'string', to, extra_args=extra_args,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/katayama/.local/share/virtualenvs/PeTeReport-_6WeQ73O/lib/python3.11/site-packages/pypandoc/__init__.py", line 426, in _convert_input
+    raise RuntimeError(
+RuntimeError: Pandoc died with exitcode "43" during conversion: Error producing PDF.
+! LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \begin{longtable}
+
+
+[13/Sep/2023 04:52:06] "GET /en/report/download/pdf/default/1 HTTP/1.0" 500 146633
