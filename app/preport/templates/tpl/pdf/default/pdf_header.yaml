@@ -17,6 +17,7 @@ book: false
 toc-own-page: true
 code-block-font-size: \scriptsize
 colorlinks: true
+tables: true
 
 pandoc-latex-environment:
     noteblock: [note]
