@@ -1,7 +1,9 @@
 ---
 title: "{{DB_report_query.title}}"
 product: "{{DB_report_query.product.name}}"
-author: ["{{md_author}}", "{{md_website}}"]
+author:
+- "{{md_author}}"
+- "{{md_website}}"
 date: "{{report_date}}"
 subject: "{{md_subject}}"
 subtitle: "{{DB_report_query.report_id}}"

@@ -1,5 +1,5 @@
 {% load i18n %}
-# {% translate "Project Overview" %}
+# {% translate "Document Overview" %}
 
 ## {% translate "Description" %}
 
