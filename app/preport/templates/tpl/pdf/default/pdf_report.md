@@ -41,9 +41,9 @@
 \pagebreak
 # {% translate "Findings and Risk Analysis" %}
 
-{{template_findings}}
+{{template_findings | safe}}
 
 \pagebreak
-{{template_appendix}}
+{{template_appendix | safe}}
 
 \pagebreak
