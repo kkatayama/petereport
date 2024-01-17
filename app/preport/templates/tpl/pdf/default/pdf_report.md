@@ -1,7 +1,5 @@
 {% load i18n %}
-# {% translate "Project Overview" %}
-
-## {% translate "Description" %}
+# {% translate "Document Overview" %}
 
 {{DB_report_query.product.description | safe}}
 
@@ -26,7 +24,7 @@
 
 {{DB_report_query.scope | safe}}
 
-### {% translate "Out of Scope" %}
+### {% translate "Attack Surface" %}
 
 {{DB_report_query.outofscope | safe}}
 
@@ -43,9 +41,9 @@
 \pagebreak
 # {% translate "Findings and Risk Analysis" %}
 
-{{template_findings}}
+{{template_findings | safe}}
 
 \pagebreak
-{{template_appendix}}
+{{template_appendix | safe}}
 
 \pagebreak

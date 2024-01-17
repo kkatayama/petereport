@@ -886,13 +886,15 @@ $if(titlepage-background)$
   \setstretch{2}
   \vfill
   \vskip -8em
+  \noindent {\huge \textbf{\textsf{$product$}}}
+  \vskip 1em
   \noindent {\huge \textbf{\textsf{$title$}}}
   $if(subtitle)$
   \vskip 1em
   {\Large \textsf{$subtitle$}}
   $endif$
   \vskip 2em
-  \noindent {\Large \textsf{$for(author)$$author$$sep$, $endfor$} \vskip 0.6em \textsf{$date$}}
+  \noindent {\Large \textsf{$for(author)$$author$$sep$\\ $endfor$} \vskip 0.6em \textsf{$date$}}
   \vfill
 }
 $else$
@@ -907,7 +909,7 @@ $else$
   {\Large \textsf{$subtitle$}}
   $endif$
   \vskip 2em
-  \noindent {\Large \textsf{$for(author)$$author$$sep$, $endfor$}}
+  \noindent {\Large \textsf{$for(author)$$author$$sep$\\ $endfor$}}
   \vfill
 }
 $endif$

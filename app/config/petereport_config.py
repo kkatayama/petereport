@@ -19,10 +19,10 @@ DEFECTDOJO_CONFIG = {
 
 DJANGO_CONFIG = {
     'secret_key': env.str('PETEREPORT_DJANGO_SECRET_KEY', default='django-insecure-key-CHANGEMEPLEASE-pKj9bd9h7*RMCuU'),
-    'debug': env.bool('PETEREPORT_DJANGO_DEBUG', default=False),
+    'debug': env.bool('PETEREPORT_DJANGO_DEBUG', default=True),
     'admin_module': env.bool('PETEREPORT_DJANGO_AMIN_MODULE', default=False),
-    'allowed_hosts': env.list('PETEREPORT_DJANGO_ALLOWED_HOSTS', default=['*','localhost']),
-    'csrf_trusted_origins': env.list('PETEREPORT_DJANGO_CSRF_TRUSTED_ORIGINS', default=['https://localhost', 'https://127.0.0.1']),
+    'allowed_hosts': env.list('PETEREPORT_DJANGO_ALLOWED_HOSTS', default=['*','localhost', 'pentest.mangoboat.tv']),
+    'csrf_trusted_origins': env.list('PETEREPORT_DJANGO_CSRF_TRUSTED_ORIGINS', default=['https://localhost', 'https://127.0.0.1', 'https://192.168.1.37', 'https://pentest.mangoboat.tv']),
     'server_host': env.str('PETEREPORT_DJANGO_SERVER_HOST', default='http://localhost:8000/'),
     'time_zone': env.str('PETEREPORT_DJANGO_TIME_ZONE', default='UTC'),
     'upload_memory_size': env.int('PETEREPORT_DJANGO_UPLOAD_MEMORY_SIZE', default=10485760) # 10MB
