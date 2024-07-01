@@ -8,7 +8,7 @@ PETEREPORT_CONFIG = {
     'viewer_username': env.str('PETEREPORT_VIEWER_USERNAME', default='viewer'),
     'viewer_password': env.str('PETEREPORT_VIEWER_PASSWORD', default='v13w3r'),
     'viewer_email': env.str('PETEREPORT_VIEWER_EMAIL', default='viewer@petereport.pentest'),
-    'application_name': env.str('PETEREPORT_APPLICATION_NAME', default='PeTeReport'),
+    'application_name': env.str('PETEREPORT_APPLICATION_NAME', default='Exploitstrike Pentest Report'),
     'application_license': 'BSD 3-Clause Copyright ©',
     }
 
