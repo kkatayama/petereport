@@ -20,8 +20,8 @@ DEFECTDOJO_CONFIG = {
 DJANGO_CONFIG = {
     'secret_key': env.str('PETEREPORT_DJANGO_SECRET_KEY', default='django-insecure-key-CHANGEMEPLEASE-pKj9bd9h7*RMCuU'),
     'debug': env.bool('PETEREPORT_DJANGO_DEBUG', default=True),
-    'admin_module': env.bool('PETEREPORT_DJANGO_AMIN_MODULE', default=False),
-    'allowed_hosts': env.list('PETEREPORT_DJANGO_ALLOWED_HOSTS', default=['*','localhost', 'pentest.mangoboat.tv']),
+    'admin_module': env.bool('PETEREPORT_DJANGO_ADMIN_MODULE', default=True),
+    'allowed_hosts': env.list('PETEREPORT_DJANGO_ALLOWED_HOSTS', default=['*','localhost', 'pentest.mangoboat.tv', 'pentest.exploitstrike.com']),
     'csrf_trusted_origins': env.list('PETEREPORT_DJANGO_CSRF_TRUSTED_ORIGINS', default=['https://localhost', 'https://127.0.0.1', 'https://192.168.1.37', 'https://pentest.mangoboat.tv', 'https://pentest.exploitstrike.com']),
     'server_host': env.str('PETEREPORT_DJANGO_SERVER_HOST', default='http://localhost:8000/'),
     'time_zone': env.str('PETEREPORT_DJANGO_TIME_ZONE', default='UTC'),
@@ -54,6 +54,6 @@ PETEREPORT_TEMPLATES = {
 
 PETEREPORT_MARKDOWN = {
     'pdf_engine': env.str('PETEREPORT_PDF_ENGINE', default='pdflatex'), # pdflatex or xelatex
-    'martor_upload_method': env.str('PETEREPORT_MARTOR_UPLOAD_METHOD', default='BASE64'), # BASE64 (stored in DB) or MEDIA (path not protected, must be set 'debug': True. This is highly insecure and not encouraged for production use. Should be configured the web server (apache, nginx, etc) to serve the media content using a protected link)
-    'media_host': env.str('PETEREPORT_MEDIA_HOST', default='http://localhost:8000/') # If docker deployment, set https://<HOST IP>, else for django deployment http://<HOST IP>:8000
+    'martor_upload_method': env.str('PETEREPORT_MARTOR_UPLOAD_METHOD', default='MEDIA'), # BASE64 (stored in DB) or MEDIA (path not protected, must be set 'debug': True. This is highly insecure and not encouraged for production use. Should be configured the web server (apache, nginx, etc) to serve the media content using a protected link)
+    'media_host': env.str('PETEREPORT_MEDIA_HOST', default='https://pentest.exploitstrike.com/') # If docker deployment, set https://<HOST IP>, else for django deployment http://<HOST IP>:8000
 }
