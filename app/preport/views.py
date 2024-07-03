@@ -779,7 +779,9 @@ def reportdownloadmarkdown(request, template, pk):
 
         # Datetime
         now = datetime.datetime.utcnow()
-        report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        ### TEDDY EDIT ###
+        # report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        report_date = DB_report_query.report_date.strftime('%B %m, %Y')
 
         # MD filename
         name_file = bleach.clean(PETEREPORT_TEMPLATES['report_markdown_name'] + '_' + DB_report_query.title + '_' +  str(datetime.datetime.utcnow().strftime('%Y%m%d%H%M'))).replace('/', '') + '.md'
@@ -897,7 +899,9 @@ def reportdownloadhtml(request, template, pk):
 
         # Datetime
         now = datetime.datetime.utcnow()
-        report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        ### TEDDY EDIT ###
+        # report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        report_date = DB_report_query.report_date.strftime('%B %m, %Y')
 
         # HTML filename
         name_file = bleach.clean(PETEREPORT_TEMPLATES['report_html_name'] + '_' + DB_report_query.title + '_' +  str(datetime.datetime.utcnow().strftime('%Y%m%d%H%M'))).replace('/', '') + '.html'
@@ -1044,7 +1048,9 @@ def reportdownloadpdf(request, template, pk):
 
         # Datetime
         now = datetime.datetime.utcnow()
-        report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        ### TEDDY EDIT ###
+        # report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        report_date = DB_report_query.report_date.strftime('%B %m, %Y')
 
         # PDF filename
         name_file = bleach.clean(PETEREPORT_TEMPLATES['report_pdf_name'] + '_' + DB_report_query.title + '_' +  str(datetime.datetime.utcnow().strftime('%Y%m%d%H%M'))).replace('/', '') + '.pdf'
@@ -1220,7 +1226,9 @@ def reportdownloadjupyter(request, template, pk):
 
         # Datetime
         now = datetime.datetime.utcnow()
-        report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        ### TEDDY EDIT ###
+        # report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+        report_date = DB_report_query.report_date.strftime('%B %m, %Y')
 
         # filename
         name_file = bleach.clean(PETEREPORT_TEMPLATES['report_jupyter_name'] + '_' + DB_report_query.title + '_' +  str(datetime.datetime.utcnow().strftime('%Y%m%d%H%M'))).replace('/', '') + '.ipynb'
@@ -1496,7 +1504,9 @@ def downloadfindingscsv(request,pk):
 
     # Datetime
     now = datetime.datetime.utcnow()
-    report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+    ### TEDDY EDIT ###
+    # report_date = DB_report_query.report_date.strftime('%d-%m-%Y')
+    report_date = DB_report_query.report_date.strftime('%B %m, %Y')
 
     csv.register_dialect('MMDialect', quoting=csv.QUOTE_ALL, skipinitialspace=True)
     with open(csv_file_output, 'w') as fh:
