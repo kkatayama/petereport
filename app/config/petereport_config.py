@@ -8,7 +8,7 @@ PETEREPORT_CONFIG = {
     'viewer_username': env.str('PETEREPORT_VIEWER_USERNAME', default='viewer'),
     'viewer_password': env.str('PETEREPORT_VIEWER_PASSWORD', default='v13w3r'),
     'viewer_email': env.str('PETEREPORT_VIEWER_EMAIL', default='viewer@petereport.pentest'),
-    'application_name': env.str('PETEREPORT_APPLICATION_NAME', default='Exploitstrike Pentest Report'),
+    'application_name': env.str('PETEREPORT_APPLICATION_NAME', default='ExploitStrike Pentest Report'),
     'application_license': 'BSD 3-Clause Copyright ©',
     }
 
@@ -19,7 +19,7 @@ DEFECTDOJO_CONFIG = {
 
 DJANGO_CONFIG = {
     'secret_key': env.str('PETEREPORT_DJANGO_SECRET_KEY', default='django-insecure-key-CHANGEMEPLEASE-pKj9bd9h7*RMCuU'),
-    'debug': env.bool('PETEREPORT_DJANGO_DEBUG', default=True),
+    'debug': env.bool('PETEREPORT_DJANGO_DEBUG', default=False),
     'admin_module': env.bool('PETEREPORT_DJANGO_ADMIN_MODULE', default=True),
     'allowed_hosts': env.list('PETEREPORT_DJANGO_ALLOWED_HOSTS', default=['*','localhost', 'pentest.mangoboat.tv', 'pentest.exploitstrike.com']),
     'csrf_trusted_origins': env.list('PETEREPORT_DJANGO_CSRF_TRUSTED_ORIGINS', default=['https://localhost', 'https://127.0.0.1', 'https://192.168.1.37', 'https://pentest.mangoboat.tv', 'https://pentest.exploitstrike.com']),
