@@ -15,10 +15,10 @@ from django.core.serializers.json import DjangoJSONEncoder
 import django.db
 
 # Forms
-from .forms import NewProductForm, NewReportForm, NewFindingForm, NewAppendixForm, NewFindingTemplateForm, AddUserForm, NewCWEForm, NewFieldForm, NewSettingsForm, NewCustomerForm, NewOWASPForm
+from .forms import NewProductForm, NewReportForm, NewFindingForm, NewAppendixForm, NewFindingTemplateForm, AddUserForm, NewCWEForm, NewFieldForm, NewSettingsForm, NewCustomerForm, NewOWASPForm, NewEngagementForm
 
 # Model
-from .models import DB_Report, DB_Finding, DB_Product, DB_Finding_Template, DB_Appendix, DB_CWE, DB_Custom_field, DB_AttackFlow, DB_OWASP, DB_Settings, DB_Customer, DB_Deliverable
+from .models import DB_Report, DB_Finding, DB_Product, DB_Finding_Template, DB_Appendix, DB_CWE, DB_Custom_field, DB_AttackFlow, DB_OWASP, DB_Settings, DB_Customer, DB_Deliverable, DB_Engagement
 
 # Decorators
 from .decorators import allowed_users
@@ -2428,3 +2428,28 @@ def deliverable_delete(request):
     else:
         return HttpResponseServerError('{"status":"fail"}', content_type='application/json')
 
+
+
+# ----------------------------------------------------------------------
+#                         Engagements
+# ----------------------------------------------------------------------
+
+
+@login_required
+def engagement_list(request):
+    DB_engagement_query = DB_Engagement.objects.order_by('pk').all()
+
+    return render(request, 'engagement/engagement_list.html', {'DB_engagement_query': DB_engagement_query})
+
+
+@login_required
+@allowed_users(allowed_roles=['administrator'])
+def engagement_add(request):
+    if request.method == 'POST':
+        form = NewEngagementForm(request.POST)
+        if form.is_valid():
+            engagement = form.save()
+            return redirect('engagement_detail', pk=engagement.pk)
+    else:
+        form = NewEngagementForm()
+    return render(request, 'engagement_add.html', {'form': form})

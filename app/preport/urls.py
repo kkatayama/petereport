@@ -98,4 +98,7 @@ urlpatterns = [
     path('deliverable/list/', views.deliverable_list, name='deliverable_list'),
     path('deliverable/delete/', views.deliverable_delete, name='deliverable_delete'),
     path('deliverable/download/<int:pk>', views.deliverable_download, name='deliverable_download'),
+    # Engagements
+    path('engagement/list/', views.engagement_list, name='engagement_list'),
+    path('engagement/add/', views.engagement_add, name='engagement_add'),
 ]

@@ -243,3 +243,19 @@ class DB_Deliverable(models.Model):
 		return self.filename
 	class Meta:
 		verbose_name_plural = "Deliverables"
+
+
+# ---------- Engagement ------------
+
+class DB_Engagement(models.Model):
+	name = models.CharField(max_length=255, blank=False)
+	creation_date = models.DateTimeField(auto_now_add=True)
+	start_date = models.DateTimeField(blank=False)
+	end_date = models.DateTimeField(blank=False)
+	description = MartorField()
+	def __str__(self):
+		return self.name
+	def get_label (self):
+		return self.name
+	class Meta:
+		verbose_name_plural = "Engagements"

@@ -3,7 +3,9 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User, Group
 from django.db.models.base import Model
 from django.forms import Textarea, TextInput, DateInput, ModelChoiceField, EmailField, BooleanField, FileInput
-from .models import DB_Report, DB_Finding, DB_Product, DB_Finding_Template, DB_Appendix, DB_CWE, DB_AttackTree, DB_Custom_field, DB_Settings, DB_Customer, DB_OWASP
+from .models import (DB_Report, DB_Finding, DB_Product, DB_Finding_Template, DB_Appendix,
+                     DB_CWE, DB_AttackTree, DB_Custom_field, DB_Engagement,
+                     DB_Settings, DB_Customer, DB_OWASP)
 from django.utils.translation import gettext_lazy as _
 
 import datetime
@@ -257,4 +259,22 @@ class NewCustomerForm(forms.ModelForm):
             'name': TextInput(attrs={'class': 'form-control', 'type': "text", 'required': "required", 'placeholder': _('Customer Name')}),
             'contact': TextInput(attrs={'class': 'form-control', 'type':'email', 'aria-describedby':'emailHelp', 'placeholder': 'Enter Email'}),
             'description': TextInput(attrs={'class': 'form-control', 'type':'textarea', 'placeholder': _('Description')}),
+        }
+
+
+class NewEngagementForm(forms.ModelForm):
+    class Meta:
+        model = DB_Engagement
+        fields = ('name', 'description', 'start_date', 'end_date')
+
+
+        widgets = {
+            'name': TextInput(
+                attrs={'class': 'form-control', 'type': "text", 'required': "required", 'placeholder': _("Name")}),
+            'description': TextInput(
+                attrs={'class': 'form-control', 'type': "text", 'required': "required", 'placeholder': _("Engagement Description")}),
+            'start_date': DateInput(
+                attrs={'class': 'form-control', 'type': "text", 'data-inputmask': "'alias': 'yyyy-mm-dd'",'data-mask': '', 'required': "required"}),
+            'end_date': DateInput(
+                attrs={'class': 'form-control', 'type': "text", 'data-inputmask': "'alias': 'yyyy-mm-dd'",'data-mask': '', 'required': "required"}),
         }
