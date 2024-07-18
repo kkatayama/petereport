@@ -20,7 +20,7 @@ DEFECTDOJO_CONFIG = {
 
 DJANGO_CONFIG = {
     'secret_key': env.str('PETEREPORT_DJANGO_SECRET_KEY', default='django-insecure-key-CHANGEMEPLEASE-pKj9bd9h7*RMCuU'),
-    'debug': env.bool('PETEREPORT_DJANGO_DEBUG', default=True),
+    'debug': env.bool('PETEREPORT_DJANGO_DEBUG', default=False),
     'admin_module': env.bool('PETEREPORT_DJANGO_ADMIN_MODULE', default=True),
     'allowed_hosts': env.list('PETEREPORT_DJANGO_ALLOWED_HOSTS', default=['*','localhost', 'pentest.mangoboat.tv', 'pentest.exploitstrike.com']),
     'csrf_trusted_origins': env.list('PETEREPORT_DJANGO_CSRF_TRUSTED_ORIGINS', default=['https://localhost', 'https://127.0.0.1', 'https://192.168.1.37', 'https://pentest.mangoboat.tv', 'https://pentest.exploitstrike.com']),
@@ -52,6 +52,7 @@ PETEREPORT_TEMPLATES = {
     'titlepage-rule-color': "cc0000",
     'titlepage-rule-height': 2
 }
+
 
 PETEREPORT_MARKDOWN = {
     'pdf_engine': env.str('PETEREPORT_PDF_ENGINE', default='pdflatex'), # pdflatex or xelatex

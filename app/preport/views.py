@@ -2,7 +2,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User, Group
-from django.http import HttpResponse, HttpResponseNotFound, HttpResponseServerError, Http404
+from django.http import HttpResponse, HttpResponseNotFound, HttpResponseServerError, Http404, HttpResponseForbidden
 from django.core.files.storage import default_storage
 from django.core.files.base import ContentFile
 from django.template.loader import render_to_string
@@ -2453,3 +2453,23 @@ def engagement_add(request):
     else:
         form = NewEngagementForm()
     return render(request, 'engagement_add.html', {'form': form})
+
+
+
+# ----------------------------------------------------------------------
+#                         Protected Media
+# ----------------------------------------------------------------------
+@login_required
+def protected_media(request, file_path, document_root=None):
+    print('*'*30)
+    print(request.path)
+    print('stuff')
+    print(file_path)
+    print('thing')
+    print(document_root)
+    print('*'*30)
+
+    response = HttpResponse()
+    response["Content-Type"] = ""
+    response["X-Accel-Redirect"] = request.path.replace('/media/', '/protected/')
+    return response
