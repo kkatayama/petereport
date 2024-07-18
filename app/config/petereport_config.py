@@ -1,5 +1,6 @@
 import environ
 env = environ.Env()
+env.read_env()
 
 PETEREPORT_CONFIG = {
     'admin_username': env.str('PETEREPORT_ADMIN_USERNAME', default='admin'),
