@@ -32,9 +32,9 @@ if settings.ADMIN_ENABLED:
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns += [
-    # re_path(r'.*', views.protected_media, name='protected_media'),
-    re_path(r'media/(?P<file_path>.*)', views.protected_media, {'document_root': settings.MEDIA_ROOT}),
+    re_path(r'media/.*', views.protected_media, name='protected_media'),
+    # re_path(r'media/(?P<file_path>.*)', views.protected_media, {'document_root': settings.MEDIA_ROOT}),
 ]
-print(urlpatterns)
-print(settings.MEDIA_URL)
-print(settings.__dict__)
+#print(urlpatterns)
+#print(settings.MEDIA_URL)
+#print(settings.__dict__)

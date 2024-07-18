@@ -2460,14 +2460,14 @@ def engagement_add(request):
 #                         Protected Media
 # ----------------------------------------------------------------------
 @login_required
-def protected_media(request, file_path, document_root=None):
-    print('*'*30)
-    print(request.path)
-    print('stuff')
-    print(file_path)
-    print('thing')
-    print(document_root)
-    print('*'*30)
+def protected_media(request):
+    # print('*'*30)
+    # print(request.path)
+    # print('stuff')
+    # print(file_path)
+    # print('thing')
+    # print(document_root)
+    # print('*'*30)
 
     response = HttpResponse()
     response["Content-Type"] = ""
