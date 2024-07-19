@@ -16,13 +16,15 @@ counter_finding_low: "{{counter_finding_low}}"
 counter_finding_info: "{{counter_finding_info}}"
 lang: "en"
 colorlinks: true
+tables: true
+
 ---
 
 # {% translate "Project Overview" %}
 
 ## {% translate "Description" %}
 
-{{DB_report_query.product.description | safe_markdown | bleach}}
+{{DB_report_query.product.description | safe_markdown | bleach }}
 
 # {% translate "Executive Summary" %}
 

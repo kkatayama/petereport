@@ -140,3 +140,4 @@ dmypy.json
 # Teddy Add
 storage_reports/
 media/
+temp/

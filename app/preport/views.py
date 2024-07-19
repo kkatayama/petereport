@@ -1007,6 +1007,11 @@ def reportdownloadhtml(request, template, pk):
 
         render_md = render_to_string(os.path.join(template_html_dir, 'html_report.md'), {'DB_report_query': DB_report_query, 'template_findings': mark_safe(template_findings), 'template_appendix': mark_safe(template_appendix), 'finding_summary': md_finding_summary, 'md_author': md_author, 'report_date': report_date, 'md_subject': md_subject, 'md_website': md_website, 'counter_finding_critical': counter_finding_critical, 'counter_finding_high': counter_finding_high, 'counter_finding_medium': counter_finding_medium, 'counter_finding_low': counter_finding_low, 'counter_finding_info': counter_finding_info, 'finding_summary_table': finding_summary_table})
 
+        ### TEDDY EDIT ###
+        #render_md_html = render_to_string(os.path.join(template_html_dir, 'html_header.md'), {'DB_report_query': DB_report_query, 'template_findings': mark_safe(template_findings), 'template_appendix': mark_safe(template_appendix), 'finding_summary': md_finding_summary, 'md_author': md_author, 'report_date': report_date, 'md_subject': md_subject, 'md_website': md_website, 'counter_finding_critical': counter_finding_critical, 'counter_finding_high': counter_finding_high, 'counter_finding_medium': counter_finding_medium, 'counter_finding_low': counter_finding_low, 'counter_finding_info': counter_finding_info, 'finding_summary_table': finding_summary_table})
+        # render_md_pdf += render_to_string()
+        #render_md = render_md_html
+
         final_markdown = textwrap.dedent(render_md)
         final_markdown_output = mark_safe(final_markdown)
 
@@ -1014,11 +1019,59 @@ def reportdownloadhtml(request, template, pk):
         if  PETEREPORT_MARKDOWN['martor_upload_method'] == 'MEDIA':
             final_markdown_output = replace_media_url_local_base64(final_markdown_output)
 
-        html_template = os.path.join(TEMPLATES_ROOT, PETEREPORT_TEMPLATES['html_template'])    
+        final_markdown_output = final_markdown_output.encode(encoding="utf-8", errors="ignore").decode()
+        pathlib.Path.home().joinpath('temp', 'html-out.md').write_bytes(final_markdown_output.encode(encoding="utf-8", errors="ignore"))
+
+
+        #############################################################################################################
+        #                                            TEDDY NOTES                                                    #
+        #############################################################################################################
+        #                                                                                                           #
+        # html_template         = "app/preport/templates/tpl/html/bootstrap-4-pandoc-template/template.html"        #
+        #                                                                                                           #
+        # final_markdown_output = "app/preport/templates/tpl/html/default/html_report.md"                           #
+        #   <>  final_markdown                                                                                      #
+        #   <>  render_md                                                                                           #
+        #   <>  template_html_dir                                                                                   #
+        #                                                                                                           #
+        #############################################################################################################
+
+        ### TEDDY EDIT ###
+        PDF_HEADER_FILE = pathlib.Path('preport/templates/tpl', 'pdf', 'default', 'pdf_header.tex')
+        PETEREPORT_LATEX_FILE = pathlib.Path('preport/templates/tpl', 'pdf', 'default', PETEREPORT_TEMPLATES['pdf_latex_template'])
+
+        html_template = os.path.join(TEMPLATES_ROOT, PETEREPORT_TEMPLATES['html_template'])
 
         html_file_output = os.path.join(REPORTS_MEDIA_ROOT, 'html', name_file)
 
-        output_pypandoc = pypandoc.convert_text(final_markdown_output, to='html', outputfile=html_file_output, format='md', extra_args=['--from', 'markdown+yaml_metadata_block+raw_html', '--template', html_template, '--toc', '--table-of-contents', '--toc-depth', '2', '--number-sections', '--top-level-division=chapter', '--self-contained'])
+        ### TEDDY EDIT ###
+        pdf_file_output = os.path.join(REPORTS_MEDIA_ROOT, 'html', name_file.replace('.html', '-TEMP.pdf'))
+        output_pdf = pypandoc.convert_text(final_markdown_output,
+                                                to='pdf',
+                                                outputfile=pdf_file_output,
+                                                format='md',
+                                                extra_args=['-H', PDF_HEADER_FILE,
+                                                            '--from', 'markdown+yaml_metadata_block+raw_html',
+                                                            '--template', PETEREPORT_LATEX_FILE,
+                                                            '--table-of-contents',
+                                                            '--toc-depth', '4',
+                                                            '--highlight-style', 'breezedark',
+                                                            '--number-sections',
+                                                            '--filter', 'pandoc-latex-environment',
+                                                            '--pdf-engine', PETEREPORT_MARKDOWN['pdf_engine'],
+                                                            '--listings'])
+
+        # output_pypandoc = pypandoc.convert_text(final_markdown_output,
+        #                                         to='html',
+        #                                         outputfile=html_file_output,
+        #                                         format='md',
+        #                                         extra_args=['--from', 'markdown+yaml_metadata_block+raw_html',
+        #                                                     '--template', html_template,
+        #                                                     '--toc', '--table-of-contents',
+        #                                                     '--toc-depth', '2',
+        #                                                     '--number-sections',
+        #                                                     '--top-level-division=chapter',
+        #                                                     '--self-contained'])
 
         deliverable = DB_Deliverable(report=DB_report_query, filename=name_file, generation_date=now, filetemplate=template, filetype='html')
         deliverable.save()
